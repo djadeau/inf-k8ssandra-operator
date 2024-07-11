@@ -1,8 +1,8 @@
 apiVersion: v3
 dependencies:
-- name: k8ssandra
+- name: k8ssandra-operator
   repository: https://helm.k8ssandra.io/stable
-  version: 1.4.11
+  version: 1.17.0
 name: k8ssandra
 description: A helm chart to deploy k8ssandra operator
 type: application
