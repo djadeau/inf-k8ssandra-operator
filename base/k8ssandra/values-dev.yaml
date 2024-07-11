@@ -3,7 +3,7 @@ k8ssandra:
     # -- Determines whether k8ssandra-operator only watch and manages
     # K8ssandraCluster in the same namespace in which the operator is deployed
     # or if watches and manages K8ssandraClusters across all namespaces.
-    clusterScoped: true
+    clusterScoped: false
   # -- A name in place of the chart name which is used in the metadata.name of
   # objects created by this chart.
   nameOverride: ''
