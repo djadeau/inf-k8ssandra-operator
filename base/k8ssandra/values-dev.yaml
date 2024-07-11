@@ -6,10 +6,10 @@ k8ssandra:
     clusterScoped: true
   # -- A name in place of the chart name which is used in the metadata.name of
   # objects created by this chart.
-  nameOverride: ''
+  nameOverride: 'k8ss-op'
   # -- A name in place of the value used for metadata.name in objects created by
   # this chart. The default value has the form releaseName-chartName.
-  fullnameOverride: ''
+  fullnameOverride: 'k8ss-op'
   # -- Labels to be added to all deployed resources.
   commonLabels: {}
   # -- Sets the number of k8ssandra-operator pods.
